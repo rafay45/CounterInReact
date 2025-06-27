@@ -5,7 +5,7 @@ function App() {
   let [counter, setCounter] = useState(0)
   let stopVar = "stop"
   const Increament = () => {
-    if (counter < 20) {
+    if (counter < 1000) {
       setCounter(counter + 1)
     } else {
       setCounter(stopVar)
